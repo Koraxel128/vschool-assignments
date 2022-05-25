@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => {
         
     }
     newButtonTwo.onclick = function removeItem(){
-        newItem.textContent = ""
+        newItem.remove()
         
         
     }
